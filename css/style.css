@@ -2,10 +2,9 @@
   --preto: #17140f;
   --preto-card: #221c14;
   --preto-suave: #2b241a;
-  --dourado: #E7B93E;
-  --dourado-suave: #F3D07A;
-  --vermelho: #D42C2C;
-  --vermelho-escuro: #9E1F1F;
+  --dourado: #F7C325;
+  --dourado-suave: #FBDA73;
+  --dourado-escuro: #D9A812;
   --texto: #F5EDE0;
   --texto-suave: #C9BBA0;
   --sombra: 0 10px 30px rgba(0, 0, 0, 0.45);
@@ -87,13 +86,13 @@ ul {
 }
 
 .btn-primary {
-  background: var(--vermelho);
-  color: var(--texto);
-  box-shadow: 0 8px 20px rgba(212, 44, 44, 0.4);
+  background: var(--dourado);
+  color: var(--preto);
+  box-shadow: 0 8px 20px rgba(247, 195, 37, 0.35);
 }
 
 .btn-primary:hover {
-  background: var(--vermelho-escuro);
+  background: var(--dourado-escuro);
 }
 
 .btn-secondary {
@@ -125,14 +124,15 @@ ul {
 }
 
 .logo {
-  font-family: 'Caveat', cursive;
-  font-size: 1.9rem;
-  font-weight: 700;
-  color: var(--dourado);
+  display: flex;
+  align-items: center;
 }
 
-.logo span {
-  color: var(--vermelho);
+.logo img {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .nav-links {
@@ -181,8 +181,8 @@ ul {
 
 .hero-tag {
   display: inline-block;
-  background: var(--vermelho);
-  color: var(--texto);
+  background: var(--dourado);
+  color: var(--preto);
   padding: 6px 16px;
   border-radius: 6px;
   font-size: 0.85rem;
@@ -224,7 +224,7 @@ ul {
 .sobre-img {
   aspect-ratio: 4 / 3;
   border-radius: var(--raio);
-  background: linear-gradient(135deg, var(--vermelho) 0%, var(--dourado) 100%);
+  background: linear-gradient(135deg, var(--dourado) 0%, var(--dourado-escuro) 100%);
   box-shadow: var(--sombra);
 }
 
@@ -444,8 +444,8 @@ ul {
 
 /* Contato / CTA final */
 .contato {
-  background: linear-gradient(135deg, var(--vermelho) 0%, var(--vermelho-escuro) 100%);
-  color: var(--texto);
+  background: var(--dourado);
+  color: var(--preto);
   padding: 80px 0;
   text-align: center;
 }
@@ -453,22 +453,32 @@ ul {
 .contato h2 {
   font-size: clamp(2.3rem, 4vw, 3.1rem);
   margin-bottom: 12px;
-  color: var(--dourado-suave);
+  color: var(--preto);
 }
 
 .contato p {
   margin-bottom: 32px;
-  opacity: 0.9;
+  opacity: 0.85;
+}
+
+.contato .btn-primary {
+  background: var(--preto);
+  color: var(--dourado);
+  box-shadow: none;
+}
+
+.contato .btn-primary:hover {
+  background: #000;
 }
 
 .contato .btn-secondary {
-  color: var(--texto);
-  border-color: var(--texto);
+  color: var(--preto);
+  border-color: var(--preto);
 }
 
 .contato .btn-secondary:hover {
-  background: var(--texto);
-  color: var(--vermelho-escuro);
+  background: var(--preto);
+  color: var(--dourado);
 }
 
 /* Footer */
