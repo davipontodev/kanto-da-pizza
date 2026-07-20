@@ -621,6 +621,21 @@ ul {
   background: var(--dourado-escuro);
 }
 
+.tamanho-legenda {
+  display: block;
+  width: fit-content;
+  margin: 4px auto 0;
+  padding: 10px 20px;
+  background: var(--fundo-suave);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  color: var(--texto-suave);
+}
+
+.tamanho-legenda strong {
+  color: var(--texto);
+}
+
 .menu-categoria-titulo {
   font-size: 1.1rem;
   margin: 48px 0 16px;
@@ -793,10 +808,42 @@ ul {
 
 /* Contato / CTA final */
 .contato {
+  position: relative;
+  overflow: hidden;
   background: var(--dourado);
   color: var(--preto);
   padding: 80px 0;
   text-align: center;
+}
+
+.contato-parallax {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.parallax-item {
+  position: absolute;
+  color: var(--dourado-escuro);
+}
+
+.parallax-item svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.parallax-item-1 { width: 90px; top: -18px; left: 6%; opacity: 0.45; }
+.parallax-item-2 { width: 58px; top: 18%; right: 9%; opacity: 0.35; }
+.parallax-item-3 { width: 110px; bottom: -28px; left: 18%; opacity: 0.4; }
+.parallax-item-4 { width: 70px; bottom: 8%; right: 6%; opacity: 0.5; }
+.parallax-item-5 { width: 46px; top: 48%; left: 46%; opacity: 0.22; }
+
+.contato-content {
+  position: relative;
+  z-index: 1;
 }
 
 .contato h2 {
@@ -922,6 +969,12 @@ ul {
   .localizacao-mapa iframe {
     min-height: 260px;
   }
+
+  .parallax-item-1 { width: 60px; }
+  .parallax-item-2 { width: 42px; }
+  .parallax-item-3 { width: 70px; }
+  .parallax-item-4 { width: 48px; }
+  .parallax-item-5 { display: none; }
 
   .hero-foto {
     min-height: 220px;
