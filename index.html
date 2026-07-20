@@ -13,7 +13,7 @@
 
   <header class="header">
     <nav class="navbar container">
-      <a href="#topo" class="logo"><img src="img/logo-marca.jpeg" alt="Kanto da Pizza e Massas"></a>
+      <a href="#topo" class="logo"><img src="img/logo-marca.jpeg" alt="Kanto da Pizza e Massas"><span class="logo-nome">Kanto da Pizza</span></a>
       <ul class="nav-links">
         <li><a href="#sobre">Sobre</a></li>
         <li><a href="#cardapio">Cardápio</a></li>
@@ -25,33 +25,23 @@
   </header>
 
   <section id="topo" class="hero">
-    <div class="container hero-grid">
-      <div class="hero-content">
-        <p class="hero-tag">Nova Parnamirim - RN</p>
-        <h1>Kanto da Pizza RN<br>sabor <span>de verdade</span></h1>
-        <p class="hero-subtitle">Massa feita na casa, molho próprio e recheio na medida certa. Peça pelo iFood ou chama no WhatsApp.</p>
-        <div class="hero-buttons">
-          <a href="https://www.ifood.com.br/delivery/parnamirim-rn/pizzaria-kanto-da-pizza--massas-nova-parnamirim/2b19a69a-3545-45de-8f8e-4a093425733e" target="_blank" rel="noopener" class="btn btn-primary">Pedir no iFood</a>
-          <a href="https://www.instagram.com/kantodapizzarn/" target="_blank" rel="noopener" class="btn btn-secondary">Ver Instagram</a>
+    <div class="container">
+      <div class="hero-card">
+        <div class="hero-foto">
+          <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=1000&q=75" alt="Pizza Kanto da Pizza">
         </div>
-        <div class="hero-selos">
-          <div class="selo">
-            <span class="selo-icone">🛵</span>
-            <span>Entrega rápida<br>pelo iFood</span>
+        <div class="hero-painel">
+          <h1>Kanto da Pizza</h1>
+          <p class="hero-handle">@kantodapizzarn</p>
+          <p class="hero-slogan">MASSA FRESQUINHA. SABOR DE VERDADE.</p>
+          <p class="hero-desc">Pizza artesanal feita na hora, com massa fina, molho próprio e recheio generoso. Peça pelo iFood ou chama no WhatsApp.</p>
+          <div class="hero-tags">
+            <span class="hero-tag-pill">Artesanal</span>
+            <span class="hero-tag-pill">Massa fina</span>
+            <span class="hero-tag-pill">Delivery rápido</span>
           </div>
-          <div class="selo">
-            <span class="selo-icone">🧀</span>
-            <span>Ingredientes<br>selecionados</span>
-          </div>
-          <div class="selo">
-            <span class="selo-icone">🔥</span>
-            <span>Feita na hora<br>do seu pedido</span>
-          </div>
+          <a href="#cardapio" class="btn btn-primary hero-cta">Ver cardápio e pedir</a>
         </div>
-      </div>
-      <div class="hero-foto">
-        <img src="img/logo-marca.jpeg" alt="Kanto da Pizza e Massas">
-        <span class="hero-foto-selo">100%<br>Massa<br>Artesanal</span>
       </div>
     </div>
   </section>
@@ -59,72 +49,56 @@
   <section class="categorias">
     <div class="container categorias-grid">
       <a href="#cardapio" class="categoria-item">
-        <span class="categoria-icone">🍕</span>
+        <svg class="categoria-icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8 12 3l10 5-10 12L2 8Z"/><path d="M2 8h20"/><circle cx="9" cy="11" r="0.8" fill="currentColor" stroke="none"/><circle cx="14" cy="13" r="0.8" fill="currentColor" stroke="none"/><circle cx="11" cy="16" r="0.8" fill="currentColor" stroke="none"/></svg>
         <span class="categoria-nome">Pizzas</span>
         <span class="categoria-desc">Massa fina</span>
       </a>
       <a href="#cardapio" class="categoria-item">
-        <span class="categoria-icone">🍔</span>
-        <span class="categoria-nome">Hambúrguer</span>
-        <span class="categoria-desc">Artesanal</span>
-      </a>
-      <a href="#cardapio" class="categoria-item">
-        <span class="categoria-icone">🥤</span>
+        <svg class="categoria-icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M6 9c1-2 3-3 6-3s5 1 6 3M4 15h16v1a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-1Z"/></svg>
         <span class="categoria-nome">Bebidas</span>
         <span class="categoria-desc">Geladinhas</span>
-      </a>
-      <a href="#cardapio" class="categoria-item">
-        <span class="categoria-icone">🏷️</span>
-        <span class="categoria-nome">Promoções</span>
-        <span class="categoria-desc">Da semana</span>
       </a>
     </div>
   </section>
 
   <section id="sobre" class="sobre">
     <div class="container sobre-grid">
-      <div class="sobre-img" aria-hidden="true"></div>
       <div class="sobre-texto">
-        <span class="section-tag">Quem faz</span>
-        <h2>Pizza boa é massa bem feita e ingrediente de verdade</h2>
+        <span class="section-tag">— Sobre</span>
+        <h2>Sabor de verdade<br>começa aqui</h2>
         <p>
           A Kanto da Pizza atende Nova Parnamirim com massa artesanal preparada na casa,
-          molho próprio e recheios generosos. Pode pedir pelo iFood ou chamar direto no
-          WhatsApp — é tudo feito na hora, do jeito que pizza boa tem que ser.
+          molho próprio e recheios generosos. É tudo feito na hora, do jeito que pizza boa
+          tem que ser.
         </p>
-        <div class="sobre-destaques">
-          <div class="destaque">
-            <strong>Massa</strong>
-            <span>Artesanal, feita na casa</span>
-          </div>
-          <div class="destaque">
-            <strong>Pedido</strong>
-            <span>iFood ou WhatsApp</span>
-          </div>
-          <div class="destaque">
-            <strong>Região</strong>
-            <span>Nova Parnamirim, RN</span>
-          </div>
-        </div>
+        <a href="#cardapio" class="btn btn-primary">Ver cardápio</a>
+      </div>
+      <div class="sobre-video">
+        <video autoplay loop muted playsinline poster="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=60">
+          <source src="https://videos.pexels.com/video-files/16423978/16423978-sd_540_960_25fps.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
-  </section>
-
-  <section class="promo-faixa">
-    <div class="container promo-faixa-content">
-      <div class="promo-faixa-icone">🕒</div>
-      <div class="promo-faixa-texto">
-        <h3>Com fome? A gente entrega rápido</h3>
-        <p>Peça pelo iFood em poucos cliques ou chama a gente no WhatsApp</p>
+    <div class="container sobre-destaques">
+      <div class="destaque-card">
+        <strong>Massa artesanal</strong>
+        <span>Feita na casa, todos os dias</span>
       </div>
-      <a href="https://wa.me/558496237351" target="_blank" rel="noopener" class="btn btn-primary promo-faixa-btn">Chamar no WhatsApp</a>
+      <div class="destaque-card">
+        <strong>Recheio generoso</strong>
+        <span>Ingredientes selecionados</span>
+      </div>
+      <div class="destaque-card">
+        <strong>Pedido pelo WhatsApp</strong>
+        <span>Rápido e direto com a gente</span>
+      </div>
     </div>
   </section>
 
   <section id="cardapio" class="cardapio">
     <div class="container">
       <span class="section-tag center">Cardápio</span>
-      <h2 class="center">Nossos best-sellers</h2>
+      <h2 class="center">Nossas pizzas</h2>
       <p class="center cardapio-aviso">
         Preços e sabores conforme o cardápio do iFood — confira sempre o app para promoções do dia.
       </p>
@@ -132,108 +106,228 @@
       <h3 class="menu-categoria-titulo">Mais pedidas</h3>
       <div class="cardapio-grid">
         <article class="pizza-card">
-          <div class="pizza-img-wrap">
-            <img class="pizza-img" src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=60" alt="Pizza Marguerita de massa fina" loading="lazy">
-            <a href="https://www.ifood.com.br/delivery/parnamirim-rn/pizzaria-kanto-da-pizza--massas-nova-parnamirim/2b19a69a-3545-45de-8f8e-4a093425733e" target="_blank" rel="noopener" class="pizza-add" aria-label="Pedir Pizza Marguerita">+</a>
-          </div>
+          <img class="pizza-img" src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=60" alt="Pizza Marguerita de massa fina" loading="lazy">
           <div class="pizza-info">
             <h3>Pizza Marguerita</h3>
+            <span class="pizza-tag">Clássica</span>
             <p>Massa fina tradicional da casa, molho especial, queijo mussarela e tomate em rodelas finalizada com orégano. Serve 3 pessoas.</p>
-            <span class="pizza-preco">R$ 42,90</span>
+            <div class="pizza-footer">
+              <span class="pizza-preco">R$ 42,90</span>
+              <a href="https://wa.me/558496237351?text=Ola%21%20Gostaria%20de%20pedir%3A%20Pizza%20Marguerita" target="_blank" rel="noopener" class="pizza-adicionar">Adicionar</a>
+            </div>
           </div>
         </article>
 
         <article class="pizza-card">
-          <div class="pizza-img-wrap">
-            <img class="pizza-img" src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=60" alt="Pizza Calabresa com Catupiry de massa fina" loading="lazy">
-            <a href="https://www.ifood.com.br/delivery/parnamirim-rn/pizzaria-kanto-da-pizza--massas-nova-parnamirim/2b19a69a-3545-45de-8f8e-4a093425733e" target="_blank" rel="noopener" class="pizza-add" aria-label="Pedir Pizza Calabresa com Catupiry">+</a>
-          </div>
+          <img class="pizza-img" src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=60" alt="Pizza Calabresa com Catupiry de massa fina" loading="lazy">
           <div class="pizza-info">
             <h3>Pizza Calabresa com Catupiry</h3>
+            <span class="pizza-tag">Favorita</span>
             <p>Massa fina tradicional da casa, molho de tomate especial, queijo mussarela, calabresa defumada e catupiry. Serve 2 pessoas.</p>
-            <span class="pizza-preco">R$ 48,00</span>
+            <div class="pizza-footer">
+              <span class="pizza-preco">R$ 48,00</span>
+              <a href="https://wa.me/558496237351?text=Ola%21%20Gostaria%20de%20pedir%3A%20Pizza%20Calabresa%20com%20Catupiry" target="_blank" rel="noopener" class="pizza-adicionar">Adicionar</a>
+            </div>
           </div>
         </article>
 
         <article class="pizza-card">
-          <div class="pizza-img-wrap">
-            <img class="pizza-img" src="https://images.unsplash.com/photo-1548369937-47519962c11a?auto=format&fit=crop&w=800&q=60" alt="Pizza Quatro Queijos de massa fina" loading="lazy">
-            <a href="https://www.ifood.com.br/delivery/parnamirim-rn/pizzaria-kanto-da-pizza--massas-nova-parnamirim/2b19a69a-3545-45de-8f8e-4a093425733e" target="_blank" rel="noopener" class="pizza-add" aria-label="Pedir Pizza Quatro Queijos">+</a>
-          </div>
+          <img class="pizza-img" src="https://images.unsplash.com/photo-1548369937-47519962c11a?auto=format&fit=crop&w=800&q=60" alt="Pizza Quatro Queijos de massa fina" loading="lazy">
           <div class="pizza-info">
             <h3>Pizza Quatro Queijos</h3>
+            <span class="pizza-tag">Especial</span>
             <p>Massa tradicional fina, molho de tomate, mussarela, parmesão e demais queijos selecionados. Serve 2 pessoas.</p>
-            <span class="pizza-preco">R$ 48,00</span>
+            <div class="pizza-footer">
+              <span class="pizza-preco">R$ 70,00</span>
+              <a href="https://wa.me/558496237351?text=Ola%21%20Gostaria%20de%20pedir%3A%20Pizza%20Quatro%20Queijos" target="_blank" rel="noopener" class="pizza-adicionar">Adicionar</a>
+            </div>
           </div>
         </article>
 
         <article class="pizza-card">
-          <div class="pizza-img-wrap">
-            <img class="pizza-img" src="img/pizza-frango-catupiry.webp" alt="Pizza de Frango com Catupiry de massa fina" loading="lazy">
-            <a href="https://www.ifood.com.br/delivery/parnamirim-rn/pizzaria-kanto-da-pizza--massas-nova-parnamirim/2b19a69a-3545-45de-8f8e-4a093425733e" target="_blank" rel="noopener" class="pizza-add" aria-label="Pedir Pizza de Frango com Catupiry">+</a>
-          </div>
+          <img class="pizza-img" src="img/pizza-frango-catupiry.webp" alt="Pizza de Frango com Catupiry de massa fina" loading="lazy">
           <div class="pizza-info">
             <h3>Pizza de Frango com Catupiry</h3>
+            <span class="pizza-tag">Favorita</span>
             <p>Massa fina tradicional da casa, molho especial, queijo mussarela e frango desfiado com catupiry.</p>
-            <span class="pizza-preco">R$ 48,00</span>
+            <div class="pizza-footer">
+              <span class="pizza-preco">R$ 48,00</span>
+              <a href="https://wa.me/558496237351?text=Ola%21%20Gostaria%20de%20pedir%3A%20Pizza%20de%20Frango%20com%20Catupiry" target="_blank" rel="noopener" class="pizza-adicionar">Adicionar</a>
+            </div>
           </div>
         </article>
 
         <article class="pizza-card">
-          <div class="pizza-img-wrap">
-            <img class="pizza-img" src="img/pizza-frango-catupiry.webp" alt="Pizza Frango com Cream Cheese de massa fina" loading="lazy">
-            <a href="https://www.ifood.com.br/delivery/parnamirim-rn/pizzaria-kanto-da-pizza--massas-nova-parnamirim/2b19a69a-3545-45de-8f8e-4a093425733e" target="_blank" rel="noopener" class="pizza-add" aria-label="Pedir Pizza Frango com Cream Cheese">+</a>
-          </div>
+          <img class="pizza-img" src="img/pizza-frango-catupiry.webp" alt="Pizza Frango com Cream Cheese de massa fina" loading="lazy">
           <div class="pizza-info">
             <h3>Pizza Frango com Cream Cheese</h3>
+            <span class="pizza-tag">Especial</span>
             <p>Massa fina tradicional da casa, molho especial, queijo mussarela e um delicioso frango com cream cheese.</p>
-            <span class="pizza-preco">R$ 46,80</span>
+            <div class="pizza-footer">
+              <span class="pizza-preco">R$ 50,00</span>
+              <a href="https://wa.me/558496237351?text=Ola%21%20Gostaria%20de%20pedir%3A%20Pizza%20Frango%20com%20Cream%20Cheese" target="_blank" rel="noopener" class="pizza-adicionar">Adicionar</a>
+            </div>
           </div>
         </article>
 
         <article class="pizza-card">
-          <div class="pizza-img-wrap">
-            <img class="pizza-img" src="https://images.unsplash.com/photo-1601924582970-9238bcb495d9?auto=format&fit=crop&w=800&q=60" alt="Pizza Calabresa Cream Cheese de massa fina" loading="lazy">
-            <a href="https://www.ifood.com.br/delivery/parnamirim-rn/pizzaria-kanto-da-pizza--massas-nova-parnamirim/2b19a69a-3545-45de-8f8e-4a093425733e" target="_blank" rel="noopener" class="pizza-add" aria-label="Pedir Pizza Calabresa Cream Cheese">+</a>
-          </div>
+          <img class="pizza-img" src="https://images.unsplash.com/photo-1601924582970-9238bcb495d9?auto=format&fit=crop&w=800&q=60" alt="Pizza Calabresa Cream Cheese de massa fina" loading="lazy">
           <div class="pizza-info">
             <h3>Pizza Calabresa Cream Cheese</h3>
+            <span class="pizza-tag">Favorita</span>
             <p>Massa tradicional fina, molho de tomate especial, queijo mussarela, calabresa defumada e cream cheese. Serve 2 pessoas.</p>
-            <span class="pizza-preco">R$ 48,00</span>
+            <div class="pizza-footer">
+              <span class="pizza-preco">R$ 50,00</span>
+              <a href="https://wa.me/558496237351?text=Ola%21%20Gostaria%20de%20pedir%3A%20Pizza%20Calabresa%20Cream%20Cheese" target="_blank" rel="noopener" class="pizza-adicionar">Adicionar</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <h3 class="menu-categoria-titulo">Escolha o tamanho</h3>
+      <div class="cardapio-grid">
+        <article class="pizza-card tamanho-card" data-nome="Pizza Marguerita" data-preco-p="35,00" data-preco-g="42,90">
+          <img class="pizza-img" src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=60" alt="Pizza Marguerita" loading="lazy">
+          <div class="pizza-info">
+            <h3>Pizza Marguerita</h3>
+            <div class="tamanho-opcoes">
+              <button type="button" class="tamanho-btn ativo" data-tamanho="Pequena">Pequena</button>
+              <button type="button" class="tamanho-btn" data-tamanho="Grande">Grande</button>
+            </div>
+            <div class="pizza-footer">
+              <span class="pizza-preco tamanho-preco">R$ 35,00</span>
+              <a href="#" target="_blank" rel="noopener" class="pizza-adicionar tamanho-adicionar">Adicionar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pizza-card tamanho-card" data-nome="Pizza Calabresa com Catupiry" data-preco-p="35,00" data-preco-g="48,00">
+          <img class="pizza-img" src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=60" alt="Pizza Calabresa com Catupiry" loading="lazy">
+          <div class="pizza-info">
+            <h3>Pizza Calabresa com Catupiry</h3>
+            <div class="tamanho-opcoes">
+              <button type="button" class="tamanho-btn ativo" data-tamanho="Pequena">Pequena</button>
+              <button type="button" class="tamanho-btn" data-tamanho="Grande">Grande</button>
+            </div>
+            <div class="pizza-footer">
+              <span class="pizza-preco tamanho-preco">R$ 35,00</span>
+              <a href="#" target="_blank" rel="noopener" class="pizza-adicionar tamanho-adicionar">Adicionar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pizza-card tamanho-card" data-nome="Pizza Quatro Queijos" data-preco-p="35,00" data-preco-g="70,00">
+          <img class="pizza-img" src="https://images.unsplash.com/photo-1548369937-47519962c11a?auto=format&fit=crop&w=800&q=60" alt="Pizza Quatro Queijos" loading="lazy">
+          <div class="pizza-info">
+            <h3>Pizza Quatro Queijos</h3>
+            <div class="tamanho-opcoes">
+              <button type="button" class="tamanho-btn ativo" data-tamanho="Pequena">Pequena</button>
+              <button type="button" class="tamanho-btn" data-tamanho="Grande">Grande</button>
+            </div>
+            <div class="pizza-footer">
+              <span class="pizza-preco tamanho-preco">R$ 35,00</span>
+              <a href="#" target="_blank" rel="noopener" class="pizza-adicionar tamanho-adicionar">Adicionar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pizza-card tamanho-card" data-nome="Pizza de Frango com Catupiry" data-preco-p="35,00" data-preco-g="48,00">
+          <img class="pizza-img" src="img/pizza-frango-catupiry.webp" alt="Pizza de Frango com Catupiry" loading="lazy">
+          <div class="pizza-info">
+            <h3>Pizza de Frango com Catupiry</h3>
+            <div class="tamanho-opcoes">
+              <button type="button" class="tamanho-btn ativo" data-tamanho="Pequena">Pequena</button>
+              <button type="button" class="tamanho-btn" data-tamanho="Grande">Grande</button>
+            </div>
+            <div class="pizza-footer">
+              <span class="pizza-preco tamanho-preco">R$ 35,00</span>
+              <a href="#" target="_blank" rel="noopener" class="pizza-adicionar tamanho-adicionar">Adicionar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pizza-card tamanho-card" data-nome="Pizza Frango com Cream Cheese" data-preco-p="35,00" data-preco-g="50,00">
+          <img class="pizza-img" src="img/pizza-frango-catupiry.webp" alt="Pizza Frango com Cream Cheese" loading="lazy">
+          <div class="pizza-info">
+            <h3>Pizza Frango com Cream Cheese</h3>
+            <div class="tamanho-opcoes">
+              <button type="button" class="tamanho-btn ativo" data-tamanho="Pequena">Pequena</button>
+              <button type="button" class="tamanho-btn" data-tamanho="Grande">Grande</button>
+            </div>
+            <div class="pizza-footer">
+              <span class="pizza-preco tamanho-preco">R$ 35,00</span>
+              <a href="#" target="_blank" rel="noopener" class="pizza-adicionar tamanho-adicionar">Adicionar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pizza-card tamanho-card" data-nome="Pizza Calabresa Cream Cheese" data-preco-p="35,00" data-preco-g="50,00">
+          <img class="pizza-img" src="https://images.unsplash.com/photo-1601924582970-9238bcb495d9?auto=format&fit=crop&w=800&q=60" alt="Pizza Calabresa Cream Cheese" loading="lazy">
+          <div class="pizza-info">
+            <h3>Pizza Calabresa Cream Cheese</h3>
+            <div class="tamanho-opcoes">
+              <button type="button" class="tamanho-btn ativo" data-tamanho="Pequena">Pequena</button>
+              <button type="button" class="tamanho-btn" data-tamanho="Grande">Grande</button>
+            </div>
+            <div class="pizza-footer">
+              <span class="pizza-preco tamanho-preco">R$ 35,00</span>
+              <a href="#" target="_blank" rel="noopener" class="pizza-adicionar tamanho-adicionar">Adicionar</a>
+            </div>
           </div>
         </article>
       </div>
 
-      <h3 class="menu-categoria-titulo">Sabores pizza grande (G)</h3>
-      <ul class="menu-lista">
-        <li class="menu-item"><span>Frango com Cream Cheese</span><span class="menu-preco">R$ 50,00</span></li>
-        <li class="menu-item"><span>Quatro Queijos</span><span class="menu-preco">R$ 70,00</span></li>
-        <li class="menu-item"><span>Calabresa Cream Cheese</span><span class="menu-preco">R$ 50,00</span></li>
-        <li class="menu-item"><span>Marguerita</span><span class="menu-preco">R$ 42,90</span></li>
-        <li class="menu-item"><span>Mussarela</span><span class="menu-preco">R$ 50,00</span></li>
-      </ul>
-
-      <h3 class="menu-categoria-titulo">Promoções da semana</h3>
-      <ul class="menu-lista">
-        <li class="menu-item"><span>Combo Pizza G + Refrigerante — escolha seu combo</span><span class="menu-preco">a partir de R$ 84,00</span></li>
-        <li class="menu-item"><span>Pizza Pequena — escolha o sabor</span><span class="menu-preco">R$ 35,00</span></li>
-      </ul>
-
-      <h3 class="menu-categoria-titulo">Hambúrguer artesanal</h3>
-      <ul class="menu-lista">
-        <li class="menu-item"><span>Kanto Burguer — pão, carne artesanal 90g, queijo, molho da casa, tomate e cebola</span><span class="menu-preco">R$ 22,00</span></li>
-        <li class="menu-item"><span>Kanto Bacon — pão, carne artesanal 90g, bacon, queijo, tomate, cebola e molho da casa</span><span class="menu-preco">R$ 32,00</span></li>
-        <li class="menu-item"><span>Kanto Calabresa — pão, carne artesanal 90g, calabresa, queijo, cebola, tomate e molho da casa</span><span class="menu-preco">R$ 28,00</span></li>
-      </ul>
-
       <h3 class="menu-categoria-titulo">Bebidas</h3>
-      <ul class="menu-lista">
-        <li class="menu-item"><span>Coca-Cola Original 350ml (lata)</span><span class="menu-preco">R$ 6,90</span></li>
-        <li class="menu-item"><span>Guaraná Antarctica 350ml (lata)</span><span class="menu-preco">R$ 7,00</span></li>
-        <li class="menu-item"><span>Coca-Cola Zero 350ml (lata)</span><span class="menu-preco">R$ 7,20</span></li>
-        <li class="menu-item"><span>Guaraná do Amazonas 500ml</span><span class="menu-preco">R$ 12,00</span></li>
-        <li class="menu-item"><span>Guaraná Antártica 1L (garrafa)</span><span class="menu-preco">R$ 12,00</span></li>
-      </ul>
+      <div class="cardapio-grid cardapio-grid-bebidas">
+        <article class="pizza-card">
+          <img class="pizza-img" src="https://images.unsplash.com/photo-1690988109029-aa2377d08b12?auto=format&fit=crop&w=600&q=60" alt="Coca-Cola Original 350ml" loading="lazy">
+          <div class="pizza-info">
+            <h3>Coca-Cola Original</h3>
+            <p>Lata 350ml</p>
+            <div class="pizza-footer">
+              <span class="pizza-preco">R$ 6,00</span>
+              <a href="https://wa.me/558496237351?text=Ola%21%20Gostaria%20de%20pedir%3A%20Coca-Cola%20Original" target="_blank" rel="noopener" class="pizza-adicionar">Adicionar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pizza-card">
+          <img class="pizza-img" src="https://images.unsplash.com/photo-1543253687-c931c8e01820?auto=format&fit=crop&w=600&q=60" alt="Coca-Cola Zero 350ml" loading="lazy">
+          <div class="pizza-info">
+            <h3>Coca-Cola Zero</h3>
+            <p>Sem açúcar, lata 350ml</p>
+            <div class="pizza-footer">
+              <span class="pizza-preco">R$ 6,00</span>
+              <a href="https://wa.me/558496237351?text=Ola%21%20Gostaria%20de%20pedir%3A%20Coca-Cola%20Zero" target="_blank" rel="noopener" class="pizza-adicionar">Adicionar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pizza-card">
+          <img class="pizza-img" src="https://images.unsplash.com/photo-1690988109041-458628590a9e?auto=format&fit=crop&w=600&q=60" alt="Sprite lata 350ml" loading="lazy">
+          <div class="pizza-info">
+            <h3>Sprite</h3>
+            <p>Lata 350ml</p>
+            <div class="pizza-footer">
+              <span class="pizza-preco">R$ 6,00</span>
+              <a href="https://wa.me/558496237351?text=Ola%21%20Gostaria%20de%20pedir%3A%20Sprite" target="_blank" rel="noopener" class="pizza-adicionar">Adicionar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pizza-card">
+          <img class="pizza-img" src="https://images.unsplash.com/photo-1624517452488-04869289c4ca?auto=format&fit=crop&w=600&q=60" alt="Fanta Laranja lata 350ml" loading="lazy">
+          <div class="pizza-info">
+            <h3>Fanta Laranja</h3>
+            <p>Lata 350ml</p>
+            <div class="pizza-footer">
+              <span class="pizza-preco">R$ 6,00</span>
+              <a href="https://wa.me/558496237351?text=Ola%21%20Gostaria%20de%20pedir%3A%20Fanta%20Laranja" target="_blank" rel="noopener" class="pizza-adicionar">Adicionar</a>
+            </div>
+          </div>
+        </article>
+      </div>
 
       <div class="cardapio-cta">
         <a href="https://www.ifood.com.br/delivery/parnamirim-rn/pizzaria-kanto-da-pizza--massas-nova-parnamirim/2b19a69a-3545-45de-8f8e-4a093425733e" target="_blank" rel="noopener" class="btn btn-primary">Ver cardápio completo no iFood</a>
@@ -241,30 +335,28 @@
     </div>
   </section>
 
-  <section id="localizacao" class="localizacao">
-    <div class="container localizacao-grid">
-      <div class="localizacao-texto">
-        <span class="section-tag">Onde estamos</span>
-        <h2>Vem nos visitar</h2>
-        <ul class="info-lista">
-          <li>
-            <strong>Endereço</strong>
-            <span>Nova Parnamirim, RN — endereço completo no iFood e no Instagram</span>
-          </li>
-          <li>
-            <strong>Horário</strong>
-            <span>Confira os horários do dia direto no Instagram ou no iFood</span>
-          </li>
-          <li>
-            <strong>Telefone / WhatsApp</strong>
-            <span><a href="https://wa.me/558496237351" target="_blank" rel="noopener">(84) 9623-7351</a></span>
-          </li>
-        </ul>
-      </div>
-      <div class="localizacao-card">
-        <h3>Chama no WhatsApp</h3>
-        <p>Fala direto com a gente pra tirar dúvida, combinar entrega ou fazer seu pedido.</p>
-        <a href="https://wa.me/558496237351" target="_blank" rel="noopener" class="btn btn-primary">(84) 9623-7351</a>
+  <section class="como-funciona">
+    <div class="container">
+      <span class="section-tag center">Como pedir</span>
+      <h2 class="center">Do carrinho até a sua mesa</h2>
+      <div class="passos">
+        <div class="passo">
+          <div class="passo-numero">1</div>
+          <h3>Escolha suas pizzas</h3>
+          <p>Adicione os sabores que quiser ao carrinho, direto no cardápio.</p>
+        </div>
+        <div class="passo-linha" aria-hidden="true"></div>
+        <div class="passo">
+          <div class="passo-numero">2</div>
+          <h3>Envie pelo WhatsApp</h3>
+          <p>Seu pedido monta uma mensagem pronta e é enviado pro nosso WhatsApp.</p>
+        </div>
+        <div class="passo-linha" aria-hidden="true"></div>
+        <div class="passo">
+          <div class="passo-numero">3</div>
+          <h3>A gente confirma</h3>
+          <p>Confirmamos o pedido, o valor e o prazo de entrega com você.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -281,10 +373,42 @@
     </div>
   </section>
 
+  <section id="localizacao" class="localizacao">
+    <div class="container">
+      <span class="section-tag center">Retirada e consumo no local</span>
+      <h2 class="center">Prefere buscar ou comer com a gente?</h2>
+      <p class="center localizacao-aviso">A Kanto da Pizza também atende quem quer retirar o pedido ou comer no local.</p>
+
+      <div class="localizacao-painel">
+        <div class="localizacao-mapa">
+          <iframe
+            src="https://maps.google.com/maps?q=Avenida%20Abel%20Cabral%2C%2025%20-%20Nova%20Parnamirim%2C%20Parnamirim%20-%20RN%2C%20Brazil&z=15&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa até a Kanto da Pizza"></iframe>
+        </div>
+        <div class="localizacao-info">
+          <div class="localizacao-bloco">
+            <span class="localizacao-rotulo">Endereço</span>
+            <p>Avenida Abel Cabral, nº 25<br>Nova Parnamirim, RN</p>
+          </div>
+          <div class="localizacao-bloco">
+            <span class="localizacao-rotulo">Horário de retirada</span>
+            <p>Confira os horários do dia direto no Instagram ou no iFood</p>
+          </div>
+          <div class="localizacao-bloco">
+            <span class="localizacao-rotulo">Telefone / WhatsApp</span>
+            <p><a href="https://wa.me/558496237351" target="_blank" rel="noopener">(84) 9623-7351</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer class="footer">
     <div class="container footer-grid">
       <div class="footer-col footer-brand">
-        <img src="img/logo-marca.jpeg" alt="Kanto da Pizza e Massas" class="footer-logo">
+        <h4 class="footer-brand-nome">Kanto da Pizza</h4>
         <p>Massa fina, sabor de verdade. Delivery em Nova Parnamirim, RN.</p>
       </div>
       <div class="footer-col">
@@ -311,6 +435,32 @@
 
   <script>
     document.getElementById('ano').textContent = new Date().getFullYear();
+
+    document.querySelectorAll('.tamanho-card').forEach(function (card) {
+      var nome = card.dataset.nome;
+      var precoP = card.dataset.precoP;
+      var precoG = card.dataset.precoG;
+      var botoes = card.querySelectorAll('.tamanho-btn');
+      var precoEl = card.querySelector('.tamanho-preco');
+      var linkEl = card.querySelector('.tamanho-adicionar');
+
+      function atualizar(tamanho) {
+        var preco = tamanho === 'Grande' ? precoG : precoP;
+        precoEl.textContent = 'R$ ' + preco;
+        var msg = 'Ola! Gostaria de pedir: ' + nome + ' (' + tamanho + ') - R$ ' + preco;
+        linkEl.href = 'https://wa.me/558496237351?text=' + encodeURIComponent(msg);
+      }
+
+      botoes.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          botoes.forEach(function (b) { b.classList.remove('ativo'); });
+          btn.classList.add('ativo');
+          atualizar(btn.dataset.tamanho);
+        });
+      });
+
+      atualizar('Pequena');
+    });
   </script>
 </body>
 </html>
