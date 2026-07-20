@@ -23,6 +23,12 @@ html {
   scroll-padding-top: 96px;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--dourado-escuro);
+  outline-offset: 2px;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   color: var(--texto);
@@ -520,19 +526,6 @@ ul {
   width: 100%;
   aspect-ratio: 16 / 10;
   object-fit: cover;
-}
-
-.pizza-img-icone {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--fundo-suave);
-}
-
-.pizza-img-icone svg {
-  width: 56px;
-  height: 56px;
-  color: var(--dourado-escuro);
 }
 
 .cardapio-grid-bebidas {

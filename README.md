@@ -8,3 +8,6 @@ Também disponível em: https://davipontodev.github.io/kanto-da-pizza/
 
 - Instagram: [@kantodapizzarn](https://www.instagram.com/kantodapizzarn/)
 - WhatsApp: (84) 9623-7351
+- Endereço: Avenida Abel Cabral, nº 25 — Nova Parnamirim, RN
+
+Construído com HTML, CSS e JavaScript puro, sem frameworks.
